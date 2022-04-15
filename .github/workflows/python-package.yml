@@ -38,3 +38,5 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+- name: "AWS CodeBuild run build" Action For GitHub Actions
+  uses: aws-actions/aws-codebuild-run-build@v1
